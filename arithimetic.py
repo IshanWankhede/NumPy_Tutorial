@@ -52,3 +52,17 @@ print(scores >= 60)
 scores[scores < 60] = 0
 
 print(scores)  #[ 91   0 100  73  82  64]
+
+
+
+# Element Wise Operator :----> 
+
+# 2D vs 1D
+A = np.array([[1, 2, 3],
+              [4, 5, 6]])
+
+b = np.array([10, 20, 30])
+print(A + b)
+
+# [[11 22 33]
+#  [14 25 36]]
