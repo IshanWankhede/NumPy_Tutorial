@@ -39,3 +39,16 @@ print(array1 - array2)  #[-3 -3 -3]
 print(array1 * array2)  #[ 4 10 18]
 print(array1 / array2)  #[0.25 0.4  0.5 ]
 print(array1 ** array2) #[  1  32 729]
+
+# COMPARISON OPERATORS   ===> this will return a boolean array
+
+scores = np.array([91, 55, 100, 73, 82, 64])
+
+print(scores == 100) # [False False  True False False False]
+
+print(scores >= 60) 
+
+
+scores[scores < 60] = 0
+
+print(scores)  #[ 91   0 100  73  82  64]
