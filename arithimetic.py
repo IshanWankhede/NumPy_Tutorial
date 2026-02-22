@@ -55,7 +55,7 @@ print(scores)  #[ 91   0 100  73  82  64]
 
 
 
-# Element Wise Operator :----> 
+# Element Wise Operator :---->  - Same shape → Works directly.
 
 # 2D vs 1D
 A = np.array([[1, 2, 3],
